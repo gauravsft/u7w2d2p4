@@ -37,3 +37,9 @@ ans:- db.employee_salary.find({gender:"Female",department:"Engineering"}).sort({
 
 12. Top 50 earning men in Human Resources
 ans:- db.employee_salary.find({gender:"Male",department:"Human Resources"}).sort({salary:-1}).limit(50)
+
+
+
+
+
+Made By Er. Gaurav Kumar
